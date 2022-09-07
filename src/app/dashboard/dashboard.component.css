@@ -1,0 +1,129 @@
+/* .dashboard{
+    border: 1px solid red;
+    margin: 20px;
+    padding: 20px;
+} */
+.main-content{
+    background-color: #eeeee4;
+    margin-top: 0 !important;
+    min-height: 100%;
+    overflow-y: auto;
+}
+.container{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px ;
+    min-height: 80%;
+    margin: 20px;
+    width: 80vw;
+  
+   
+}
+#newcmp{
+  display: inline-block;
+  float:right;
+}
+
+.example-card {
+    max-width: 400px;
+    
+  }
+  .content{
+    padding: 16px;
+  }
+  
+
+
+  .content > mat-card{
+    width: 200px;
+    
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+    padding: 10px;
+    margin-top: 20px;
+  }
+  .datepicker-footer {
+    width: 100%;
+    padding: 0 1.125rem 1.125rem 1.125rem;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+datepicker-footer1{
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  box-sizing: border-box;
+  justify-content: flex-start;
+}
+ ::ng-deep .mat-datepicker-content {
+    width: 500px !important;
+  }
+::ng-deep .mat-calendar-body-cell-content{
+  color: #333333 !important;
+  opacity: 0.8 !important;
+}
+.mat-raised-button:hover{
+  background-color: #2E42AB;
+  color:#ffffff !important;
+  opacity: 0.8 !important;
+}
+::ng-deep .mat-calendar-body-selected {
+  background-color: #2E42AB !important;
+  color: #fff !important;
+}
+.mat-raised-button{
+  width: 100px !important;
+}
+#ss{
+  top: 0;
+  position: absolute;
+  left: 0;
+  float: right;
+  display: flex;
+  justify-content: end;
+  margin-top: 10vh;
+}
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .circleBase {
+    border-radius: 50%;
+  }
+  .circle1 {
+    width: 50px;
+    height: 50px;
+    background: #4bc475;
+    
+  }
+  .cardflex{
+    display: flex;
+  }
+  .status{
+    margin:10px
+  }
+  /* .pagination {
+    display: flex;
+    justify-content: end;
+  }
+  .pagination a {
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+  }
+  .pagination a.active {
+    background-color: #4b00ff;
+    color: white;
+    border: 1px solid #4b00ff;
+  }
+  .pagination a:hover:not(.active) {background-color: #ddd;} */
